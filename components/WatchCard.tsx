@@ -1,12 +1,6 @@
 import Image from "next/image";
 import WatchIllustration from "@/components/WatchIllustration";
-import {
-  bornSameYear,
-  findUrl,
-  isPerfectMatch,
-  MONTHS,
-  type Watch,
-} from "@/lib/watches";
+import { findUrl, isPerfectMatch, MONTHS, type Watch } from "@/lib/watches";
 
 export default function WatchCard({
   watch,
@@ -20,11 +14,12 @@ export default function WatchCard({
   index: number;
 }) {
   const perfect = isPerfectMatch(watch, year, month);
-  const born = bornSameYear(watch, year);
   const years =
     watch.yearStart === watch.yearEnd
-      ? `${watch.yearStart} only`
-      : `${watch.yearStart}–${watch.yearEnd ?? "today"}`;
+      ? `Introduced ${watch.yearStart}, made that year only`
+      : watch.yearEnd === null
+        ? `Introduced ${watch.yearStart}, still made today`
+        : `Introduced ${watch.yearStart}, made until ${watch.yearEnd}`;
 
   return (
     <article
@@ -52,9 +47,6 @@ export default function WatchCard({
           </span>
         )}
 
-        <span className="absolute left-4 top-4 text-[10px] uppercase tracking-[0.22em] text-ink/50">
-          {born ? `Introduced ${watch.yearStart}` : `Alive in ${year}`}
-        </span>
 
         {perfect && (
           <div className="absolute -right-2 -top-3 flex h-20 w-20 rotate-12 flex-col items-center justify-center rounded-full border border-brass bg-cream text-center text-brass shadow-sm outline outline-1 outline-offset-[-5px] outline-brass/60">
