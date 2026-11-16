@@ -1,0 +1,673 @@
+// ============================================================
+//  THE REGISTER
+//  ------------------------------------------------------------
+//  Est.'s hand-kept ledger of birth-year watches.
+//  Add entries freely — the site adapts on its own.
+//
+//  yearEnd: null        → still in production today
+//  launchMonth: 1–12    → only when the introduction month is
+//                         genuinely documented; powers the
+//                         "Perfect Match" seal. Leave off otherwise.
+//  style: dress | diver | chronograph | pilot | sport | everyday
+//  priceTier: "$" | "$$" | "$$$"   (rough market tiers)
+// ============================================================
+
+import type { Watch } from "@/lib/watches";
+
+export const WATCHES: Watch[] = [
+  // ——— The elder statesmen (1930s–40s) ———
+  {
+    id: "jlc-reverso",
+    brand: "Jaeger-LeCoultre",
+    model: "Reverso Classique",
+    reference: "Reverso",
+    yearStart: 1931,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "Flipped to survive polo matches in 1931; still made, still the dress watch for people who read.",
+  },
+  {
+    id: "patek-calatrava-96",
+    brand: "Patek Philippe",
+    model: "Calatrava",
+    reference: "Ref. 96",
+    yearStart: 1932,
+    yearEnd: 1973,
+    style: "dress",
+    priceTier: "$$$",
+    blurb:
+      "The 1932 blueprint for every dress watch since — Bauhaus discipline, by Patek of all houses.",
+  },
+  {
+    id: "rolex-bubbleback",
+    brand: "Rolex",
+    model: 'Oyster Perpetual "Bubbleback"',
+    reference: "Various",
+    yearStart: 1933,
+    yearEnd: 1955,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "The rotor that began Rolex's automatic dynasty, housed in a case like a pocket of air.",
+  },
+  {
+    id: "iwc-mark-xi",
+    brand: "IWC",
+    model: "Mark XI",
+    reference: "Mark XI",
+    yearStart: 1948,
+    yearEnd: 1953,
+    style: "pilot",
+    priceTier: "$$$",
+    blurb:
+      "Built for RAF navigators with a soft-iron cage against magnetism; served quietly into the 1980s.",
+  },
+
+  // ——— The golden mid-century (1950s–60s) ———
+  {
+    id: "omega-constellation-piepan",
+    brand: "Omega",
+    model: 'Constellation "Pie-Pan"',
+    reference: "Various",
+    yearStart: 1952,
+    yearEnd: 1969,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "Observatory-grade chronometers with a dial like fine dinnerware. Mid-century Omega at its proudest.",
+  },
+  {
+    id: "breitling-navitimer-806",
+    brand: "Breitling",
+    model: "Navitimer",
+    reference: "806",
+    yearStart: 1954,
+    yearEnd: 1968,
+    style: "pilot",
+    priceTier: "$$$",
+    blurb:
+      "A slide rule for the wrist, adopted by the pilots' own association — the instrument of the jet age.",
+  },
+  {
+    id: "universal-polerouter",
+    brand: "Universal Genève",
+    model: "Polerouter",
+    reference: "Various",
+    yearStart: 1954,
+    yearEnd: 1969,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "A 23-year-old Gérald Genta designed it for SAS's polar routes. Microtor inside, twilight charm outside.",
+  },
+  {
+    id: "rolex-submariner-6538",
+    brand: "Rolex",
+    model: 'Submariner "Big Crown"',
+    reference: "6538",
+    yearStart: 1956,
+    yearEnd: 1959,
+    style: "diver",
+    priceTier: "$$$",
+    blurb:
+      "Connery's Submariner in Dr. No. Oversized crown, no guards, pure intent.",
+  },
+  {
+    id: "rolex-gmt-1675",
+    brand: "Rolex",
+    model: "GMT-Master",
+    reference: "1675",
+    yearStart: 1959,
+    yearEnd: 1980,
+    style: "pilot",
+    priceTier: "$$$",
+    blurb:
+      "Built to Pan Am's brief so crews could keep home time. The early gilt dials now trade like paintings.",
+  },
+  {
+    id: "rolex-datejust-1601",
+    brand: "Rolex",
+    model: "Datejust",
+    reference: "1601",
+    yearStart: 1959,
+    yearEnd: 1977,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "Fluted bezel, pie-pan dial, Jubilee bracelet — the uniform of the mid-century gentleman.",
+  },
+  {
+    id: "omega-speedmaster-ck2998",
+    brand: "Omega",
+    model: "Speedmaster",
+    reference: "CK2998",
+    yearStart: 1959,
+    yearEnd: 1963,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "Wally Schirra wore his into orbit in 1962 — the first Omega in space, before NASA ever asked.",
+  },
+  {
+    id: "rolex-submariner-5513",
+    brand: "Rolex",
+    model: "Submariner",
+    reference: "5513",
+    yearStart: 1962,
+    yearEnd: 1989,
+    style: "diver",
+    priceTier: "$$$",
+    blurb:
+      "Twenty-seven years in the catalogue. If one watch defines 'vintage diver', it is this one.",
+  },
+  {
+    id: "rolex-explorer-1016",
+    brand: "Rolex",
+    model: "Explorer",
+    reference: "1016",
+    yearStart: 1963,
+    yearEnd: 1989,
+    style: "sport",
+    priceTier: "$$$",
+    blurb: "A black dial, 3-6-9, and absolutely nothing to prove.",
+  },
+  {
+    id: "rolex-daytona-6239",
+    brand: "Rolex",
+    model: "Cosmograph Daytona",
+    reference: "6239",
+    yearStart: 1963,
+    yearEnd: 1969,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "The reference Paul Newman made priceless — his own example sold for $17.8 million.",
+  },
+  {
+    id: "heuer-carrera-2447",
+    brand: "Heuer",
+    model: "Carrera",
+    reference: "2447",
+    yearStart: 1963,
+    yearEnd: 1970,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "Jack Heuer stripped the chronograph to its essentials and named it after a deadly Mexican road race.",
+  },
+  {
+    id: "omega-speedmaster-105003",
+    brand: "Omega",
+    model: 'Speedmaster "Ed White"',
+    reference: "105.003",
+    yearStart: 1963,
+    yearEnd: 1967,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "NASA flight-qualified it in March 1965; Ed White wore his on America's first spacewalk.",
+  },
+  {
+    id: "omega-seamaster-300-165024",
+    brand: "Omega",
+    model: "Seamaster 300",
+    reference: "165.024",
+    yearStart: 1964,
+    yearEnd: 1970,
+    style: "diver",
+    priceTier: "$$$",
+    blurb:
+      "Issued to the Royal Navy's divers — the thinking person's vintage dive watch.",
+  },
+  {
+    id: "seiko-62mas",
+    brand: "Seiko",
+    model: "62MAS",
+    reference: "6217-8000",
+    yearStart: 1965,
+    yearEnd: 1968,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "Japan's first professional diver — tested on Antarctic expeditions, reissued ever since.",
+  },
+  {
+    id: "omega-speedmaster-145022",
+    brand: "Omega",
+    model: "Speedmaster Professional",
+    reference: "145.022",
+    yearStart: 1968,
+    yearEnd: 1988,
+    style: "chronograph",
+    priceTier: "$$",
+    blurb:
+      "Twenty years of the calibre 861 moonwatch. Most steps taken on the Moon were taken wearing one.",
+  },
+  {
+    id: "zenith-el-primero-a386",
+    brand: "Zenith",
+    model: "El Primero",
+    reference: "A386",
+    yearStart: 1969,
+    yearEnd: 1971,
+    launchMonth: 1,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "Announced on the 10th of January, 1969 — the first high-beat automatic chronograph, by a photo finish.",
+  },
+  {
+    id: "heuer-monaco-1133",
+    brand: "Heuer",
+    model: "Monaco",
+    reference: "1133B",
+    yearStart: 1969,
+    yearEnd: 1975,
+    launchMonth: 3,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "Square, blue, automatic — unveiled March 1969. McQueen wore it in Le Mans and it never stopped being cool.",
+  },
+  {
+    id: "rolex-submariner-1680",
+    brand: "Rolex",
+    model: "Submariner Date",
+    reference: "1680",
+    yearStart: 1969,
+    yearEnd: 1980,
+    style: "diver",
+    priceTier: "$$$",
+    blurb:
+      "The first Submariner to tell the date. Purists grumbled; everyone bought one anyway.",
+  },
+  {
+    id: "seiko-6139-pogue",
+    brand: "Seiko",
+    model: '6139 "Pogue"',
+    reference: "6139-6002",
+    yearStart: 1969,
+    yearEnd: 1978,
+    style: "chronograph",
+    priceTier: "$",
+    blurb:
+      "Flew on Skylab in a NASA pilot's personal kit — the first automatic chronograph in space, in gold-dialled glory.",
+  },
+
+  // ——— The audacious decade (1970s) ———
+  {
+    id: "rolex-explorer-ii-1655",
+    brand: "Rolex",
+    model: "Explorer II",
+    reference: "1655",
+    yearStart: 1971,
+    yearEnd: 1984,
+    style: "sport",
+    priceTier: "$$$",
+    blurb:
+      "The 'Steve McQueen' — he never wore one. Orange hand, cave-diving brief, cult classic.",
+  },
+  {
+    id: "ap-royal-oak-5402",
+    brand: "Audemars Piguet",
+    model: 'Royal Oak "Jumbo"',
+    reference: "5402ST",
+    yearStart: 1972,
+    yearEnd: 1990,
+    launchMonth: 4,
+    style: "sport",
+    priceTier: "$$$",
+    blurb:
+      "Genta sketched it overnight; unveiled at Basel, April 1972 — a steel watch priced like gold that saved the house.",
+  },
+  {
+    id: "omega-speedmaster-125",
+    brand: "Omega",
+    model: "Speedmaster 125",
+    reference: "ST 378.0801",
+    yearStart: 1973,
+    yearEnd: 1973,
+    style: "chronograph",
+    priceTier: "$$",
+    blurb:
+      "Two thousand pieces for Omega's 125th birthday — the first chronometer-certified automatic chronograph, gloriously brutalist.",
+  },
+  {
+    id: "patek-nautilus-3700",
+    brand: "Patek Philippe",
+    model: "Nautilus",
+    reference: "3700/1",
+    yearStart: 1976,
+    yearEnd: 1990,
+    style: "sport",
+    priceTier: "$$$",
+    blurb:
+      "'One of the world's costliest watches is made of steel.' Genta again — a porthole this time.",
+  },
+  {
+    id: "rolex-oysterquartz",
+    brand: "Rolex",
+    model: "Datejust Oysterquartz",
+    reference: "17000",
+    yearStart: 1977,
+    yearEnd: 2001,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "Rolex's quartz heresy in an integrated-bracelet case — a sleeper the collectors are waking up to.",
+  },
+  {
+    id: "cartier-tank-must",
+    brand: "Cartier",
+    model: "Tank Must de Cartier",
+    reference: "Must Tank",
+    yearStart: 1977,
+    yearEnd: 1996,
+    style: "dress",
+    priceTier: "$",
+    blurb:
+      "Vermeil Tanks for the many — Cartier's elegance, democratized in the late seventies.",
+  },
+  {
+    id: "cartier-santos-1978",
+    brand: "Cartier",
+    model: "Santos de Cartier",
+    reference: "Santos",
+    yearStart: 1978,
+    yearEnd: 2004,
+    style: "sport",
+    priceTier: "$$",
+    blurb:
+      "Relaunched in '78 with exposed screws and two-tone swagger — the original 1904 pilot's watch, reborn.",
+  },
+
+  // ——— Quartz, crisis, character (1980s) ———
+  {
+    id: "rolex-gmt-16750",
+    brand: "Rolex",
+    model: "GMT-Master",
+    reference: "16750",
+    yearStart: 1981,
+    yearEnd: 1988,
+    style: "pilot",
+    priceTier: "$$$",
+    blurb:
+      "The transitional GMT — vintage looks outside, quickset conveniences within.",
+  },
+  {
+    id: "swatch-gent",
+    brand: "Swatch",
+    model: "Original Gent",
+    reference: "GB001 et al.",
+    yearStart: 1983,
+    yearEnd: null,
+    launchMonth: 3,
+    style: "everyday",
+    priceTier: "$",
+    blurb:
+      "Fifty-one parts, launched the 1st of March, 1983 — the plastic watch that saved Swiss watchmaking.",
+  },
+  {
+    id: "gshock-dw5000c",
+    brand: "Casio",
+    model: "G-Shock",
+    reference: "DW-5000C",
+    yearStart: 1983,
+    yearEnd: 1987,
+    launchMonth: 4,
+    style: "everyday",
+    priceTier: "$",
+    blurb:
+      "Dropped from a third-storey window two hundred times in testing, April 1983. The shape every G-Shock still honours.",
+  },
+  {
+    id: "patek-calatrava-3919",
+    brand: "Patek Philippe",
+    model: "Calatrava",
+    reference: "3919",
+    yearStart: 1985,
+    yearEnd: 2006,
+    style: "dress",
+    priceTier: "$$$",
+    blurb:
+      "Hobnail bezel, thirty-three millimetres of restraint — the Calatrava most people picture.",
+  },
+  {
+    id: "rolex-submariner-16610",
+    brand: "Rolex",
+    model: "Submariner Date",
+    reference: "16610",
+    yearStart: 1988,
+    yearEnd: 2010,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "The modern classic. For two decades, this was the watch people meant when they said 'a Rolex'.",
+  },
+  {
+    id: "rolex-daytona-16520",
+    brand: "Rolex",
+    model: "Cosmograph Daytona",
+    reference: "16520",
+    yearStart: 1988,
+    yearEnd: 2000,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "The 'Zenith' Daytona — Rolex's chronograph with a borrowed heart, now dearly collected.",
+  },
+  {
+    id: "casio-f91w",
+    brand: "Casio",
+    model: "F-91W",
+    reference: "F-91W",
+    yearStart: 1989,
+    yearEnd: null,
+    style: "everyday",
+    priceTier: "$",
+    blurb:
+      "A digital constant on every continent. Presidents and students wear the same ten-dollar watch.",
+  },
+  {
+    id: "rolex-gmt-ii-16710",
+    brand: "Rolex",
+    model: "GMT-Master II",
+    reference: "16710",
+    yearStart: 1989,
+    yearEnd: 2007,
+    style: "pilot",
+    priceTier: "$$",
+    blurb:
+      "Pepsi, Coke, or black — one case, three characters, eighteen years of production.",
+  },
+
+  // ——— The revival (1990s) ———
+  {
+    id: "rolex-submariner-14060",
+    brand: "Rolex",
+    model: "Submariner (No-Date)",
+    reference: "14060 / 14060M",
+    yearStart: 1990,
+    yearEnd: 2012,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "The last Submariner with drilled lugs and an aluminium bezel. The connoisseur's modern Sub.",
+  },
+  {
+    id: "panerai-luminor-marina",
+    brand: "Panerai",
+    model: "Luminor Marina",
+    reference: "Luminor",
+    yearStart: 1993,
+    yearEnd: null,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "A Florentine military secret turned heavyweight icon once Stallone surfaced wearing one.",
+  },
+  {
+    id: "omega-seamaster-2531",
+    brand: "Omega",
+    model: "Seamaster Professional 300M",
+    reference: "2531.80",
+    yearStart: 1993,
+    yearEnd: 2009,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "GoldenEye, 1995. Blue waves and skeleton hands — the Bond watch for a generation.",
+  },
+  {
+    id: "lange-1",
+    brand: "A. Lange & Söhne",
+    model: "Lange 1",
+    reference: "101.001",
+    yearStart: 1994,
+    yearEnd: 2015,
+    launchMonth: 10,
+    style: "dress",
+    priceTier: "$$$",
+    blurb:
+      "Presented the 24th of October, 1994 — five years after the Wall fell, Saxony answered Switzerland.",
+  },
+  {
+    id: "iwc-mark-xii",
+    brand: "IWC",
+    model: "Mark XII",
+    reference: "3241",
+    yearStart: 1994,
+    yearEnd: 1999,
+    style: "pilot",
+    priceTier: "$$",
+    blurb:
+      "The civilian heir to the RAF navigator — JLC calibre, a date, and quiet perfection for five short years.",
+  },
+  {
+    id: "seiko-skx007",
+    brand: "Seiko",
+    model: "SKX007",
+    reference: "SKX007",
+    yearStart: 1996,
+    yearEnd: 2019,
+    style: "diver",
+    priceTier: "$",
+    blurb:
+      "The gateway drug. Two decades of indestructible, ISO-rated value — ask any collector where they began.",
+  },
+  {
+    id: "omega-speedmaster-3570",
+    brand: "Omega",
+    model: "Speedmaster Professional",
+    reference: "3570.50",
+    yearStart: 1996,
+    yearEnd: 2014,
+    style: "chronograph",
+    priceTier: "$$",
+    blurb:
+      "The moonwatch of the modern era — hesalite crystal, hand-wound, unchanged on principle.",
+  },
+  {
+    id: "patek-aquanaut-5065",
+    brand: "Patek Philippe",
+    model: "Aquanaut",
+    reference: "5065",
+    yearStart: 1998,
+    yearEnd: 2007,
+    style: "sport",
+    priceTier: "$$$",
+    blurb:
+      "The Nautilus's younger sibling, in rubber — scandalous then, waitlisted now.",
+  },
+
+  // ——— The modern canon (2000s–today) ———
+  {
+    id: "omega-planet-ocean-2500",
+    brand: "Omega",
+    model: "Seamaster Planet Ocean",
+    reference: "2201.50 et al.",
+    yearStart: 2005,
+    yearEnd: 2011,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "Omega's return to orange bezels and serious depth, powered by the co-axial calibre 2500.",
+  },
+  {
+    id: "patek-nautilus-5711",
+    brand: "Patek Philippe",
+    model: "Nautilus",
+    reference: "5711/1A",
+    yearStart: 2006,
+    yearEnd: 2021,
+    style: "sport",
+    priceTier: "$$$",
+    blurb:
+      "The modern grail — discontinued at the height of the frenzy, which only made it worse.",
+  },
+  {
+    id: "rolex-milgauss-gv",
+    brand: "Rolex",
+    model: "Milgauss GV",
+    reference: "116400GV",
+    yearStart: 2007,
+    yearEnd: 2023,
+    launchMonth: 4,
+    style: "sport",
+    priceTier: "$$",
+    blurb:
+      "Green sapphire and a lightning-bolt hand — the scientist's Rolex, revived with a wink at Basel, April 2007.",
+  },
+  {
+    id: "grand-seiko-snowflake",
+    brand: "Grand Seiko",
+    model: '"Snowflake"',
+    reference: "SBGA011",
+    yearStart: 2010,
+    yearEnd: 2017,
+    style: "dress",
+    priceTier: "$$",
+    blurb:
+      "Spring Drive's gliding seconds over a dial like fresh snow in Shinshu. Modern Japan's masterpiece.",
+  },
+  {
+    id: "tudor-black-bay-red",
+    brand: "Tudor",
+    model: "Heritage Black Bay",
+    reference: "79220R",
+    yearStart: 2012,
+    yearEnd: 2016,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "The watch that rebuilt Tudor — burgundy bezel, rose logo, snowflake hands from the archives.",
+  },
+  {
+    id: "rolex-daytona-116500",
+    brand: "Rolex",
+    model: "Cosmograph Daytona",
+    reference: "116500LN",
+    yearStart: 2016,
+    yearEnd: 2023,
+    launchMonth: 3,
+    style: "chronograph",
+    priceTier: "$$$",
+    blurb:
+      "Ceramic bezel, March 2016, five-year waitlists — the watch that broke the steel-sports market.",
+  },
+  {
+    id: "tudor-bb58",
+    brand: "Tudor",
+    model: "Black Bay Fifty-Eight",
+    reference: "79030N",
+    yearStart: 2018,
+    yearEnd: null,
+    launchMonth: 3,
+    style: "diver",
+    priceTier: "$$",
+    blurb:
+      "Vintage proportions, modern manners — introduced March 2018 and immediately the enthusiast consensus.",
+  },
+];
