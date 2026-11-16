@@ -1,3 +1,4 @@
+import Image from "next/image";
 import WatchIllustration from "@/components/WatchIllustration";
 import {
   bornSameYear,
@@ -32,7 +33,24 @@ export default function WatchCard({
     >
       {/* plate */}
       <div className="relative border-b border-ink/15 bg-parchment px-6 pb-2 pt-4 text-olive">
-        <WatchIllustration style={watch.style} className="mx-auto h-44 w-auto" />
+        {watch.image ? (
+          <div className="relative mx-auto h-44 w-full">
+            <Image
+              src={watch.image}
+              alt={`${watch.brand} ${watch.model}`}
+              fill
+              sizes="(max-width: 640px) 100vw, 33vw"
+              className="object-contain mix-blend-multiply"
+            />
+          </div>
+        ) : (
+          <WatchIllustration style={watch.style} className="mx-auto h-44 w-auto" />
+        )}
+        {watch.imageCredit && (
+          <span className="absolute bottom-1 right-2 max-w-[60%] truncate text-right text-[8px] leading-tight text-ink/35">
+            {watch.imageCredit}
+          </span>
+        )}
 
         <span className="absolute left-4 top-4 text-[10px] uppercase tracking-[0.22em] text-ink/50">
           {born ? `Introduced ${watch.yearStart}` : `Alive in ${year}`}

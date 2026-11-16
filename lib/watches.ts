@@ -22,6 +22,10 @@ export interface Watch {
   style: WatchStyle;
   priceTier: PriceTier;
   blurb: string;
+  /** Path under /public, e.g. "/watches/omega-speedmaster-145022.jpg". */
+  image?: string;
+  /** Attribution for the photo (required by most free licenses). */
+  imageCredit?: string;
 }
 
 export const STYLES: WatchStyle[] = [
