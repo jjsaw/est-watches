@@ -13,6 +13,7 @@ export default function Entrance({
 }) {
   const [year, setYear] = useState<string>("");
   const [month, setMonth] = useState<string>("");
+  const [yearMissing, setYearMissing] = useState(false);
 
   return (
     <section className="mx-auto flex max-w-xl animate-rise flex-col items-center px-6 pb-24 pt-16 text-center sm:pt-24">
@@ -29,26 +30,42 @@ export default function Entrance({
       </p>
 
       <form
+        noValidate
         className="mt-12 flex w-full flex-col items-center gap-8"
         onSubmit={(e) => {
           e.preventDefault();
-          if (!year) return;
+          if (!year) {
+            setYearMissing(true);
+            return;
+          }
           onConsult(Number(year), month ? Number(month) : null);
         }}
       >
         <div className="flex w-full flex-col items-center justify-center gap-6 sm:flex-row sm:gap-10">
           <label className="flex flex-col items-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-ink/50">
+            <span
+              className={`text-[10px] uppercase tracking-[0.3em] transition-colors ${
+                yearMissing ? "text-wine" : "text-ink/50"
+              }`}
+            >
+              {yearMissing && <span aria-hidden="true">* </span>}
               Year of birth
             </span>
             <select
-              required
               value={year}
-              onChange={(e) => setYear(e.target.value)}
-              className="w-44 appearance-none border-b border-ink/40 bg-transparent py-2 text-center font-display text-2xl text-ink transition-colors focus:border-olive focus:outline-none"
+              onChange={(e) => {
+                setYear(e.target.value);
+                setYearMissing(false);
+              }}
+              aria-invalid={yearMissing}
+              className={`w-36 appearance-none border-b bg-transparent py-1.5 text-center font-display text-lg transition-colors focus:outline-none ${
+                yearMissing
+                  ? "border-wine text-wine focus:border-wine"
+                  : "border-ink/40 text-ink focus:border-olive"
+              }`}
             >
               <option value="" disabled>
-                ————
+                Select
               </option>
               {YEARS.map((y) => (
                 <option key={y} value={y}>
@@ -60,14 +77,14 @@ export default function Entrance({
 
           <label className="flex flex-col items-center gap-2">
             <span className="text-[10px] uppercase tracking-[0.3em] text-ink/50">
-              Month — if you care to try your luck
+              Month
             </span>
             <select
               value={month}
               onChange={(e) => setMonth(e.target.value)}
-              className="w-44 appearance-none border-b border-ink/40 bg-transparent py-2 text-center font-display text-2xl text-ink transition-colors focus:border-olive focus:outline-none"
+              className="w-36 appearance-none border-b border-ink/40 bg-transparent py-1.5 text-center font-display text-lg text-ink transition-colors focus:border-olive focus:outline-none"
             >
-              <option value="">No matter</option>
+              <option value="">Optional</option>
               {MONTHS.map((m, i) => (
                 <option key={m} value={i + 1}>
                   {m}
