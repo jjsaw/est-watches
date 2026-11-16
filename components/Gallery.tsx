@@ -49,12 +49,14 @@ export default function Gallery({
       {/* ledger headline */}
       <div className="text-center">
         <p className="text-[11px] uppercase tracking-[0.4em] text-olive/80">
-          Anno Domini
+          Year
         </p>
         <h2 className="mt-3 font-display text-5xl tracking-[0.08em] text-ink sm:text-6xl">
-          {toRoman(year)}
+          {year}
         </h2>
-        <p className="mt-2 font-display text-xl italic text-ink/60">{year}</p>
+        <p className="mt-2 font-display text-sm italic tracking-[0.2em] text-ink/55">
+          {toRoman(year)}
+        </p>
 
         <div className="mx-auto mt-6 flex max-w-xl items-center gap-4">
           <span className="h-px flex-1 bg-ink/25" />
