@@ -34,7 +34,8 @@ export default function WatchCard({
               src={watch.image}
               alt={`${watch.brand} ${watch.model}`}
               fill
-              sizes="(max-width: 640px) 100vw, 33vw"
+              sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
+              quality={90}
               className="object-cover"
             />
           </div>
