@@ -8,6 +8,8 @@ export type WatchStyle =
 
 export type PriceTier = "$" | "$$" | "$$$";
 
+export type WatchAudience = "men" | "women" | "unisex";
+
 export interface Watch {
   id: string;
   brand: string;
@@ -21,6 +23,8 @@ export interface Watch {
   launchMonth?: number;
   style: WatchStyle;
   priceTier: PriceTier;
+  /** Who it was made for; "unisex" surfaces under both the men's and women's filters. */
+  audience: WatchAudience;
   blurb: string;
   /** Path under /public, e.g. "/watches/omega-speedmaster-145022.jpg". */
   image?: string;
@@ -57,6 +61,15 @@ const THIS_YEAR = new Date().getFullYear();
 export function inProductionDuring(watch: Watch, year: number): boolean {
   const end = watch.yearEnd ?? THIS_YEAR;
   return watch.yearStart <= year && year <= end;
+}
+
+/** "women" also matches unisex; "men" also matches unisex; "all" matches everything. */
+export function matchesAudience(
+  watch: Watch,
+  audience: WatchAudience | "all"
+): boolean {
+  if (audience === "all") return true;
+  return watch.audience === audience || watch.audience === "unisex";
 }
 
 /** Introduced in the visitor's exact birth year. */

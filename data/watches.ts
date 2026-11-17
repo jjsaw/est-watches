@@ -28,6 +28,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Flipped to survive polo matches in 1931; still made, still the dress watch for people who read.",
     image: "/watches/jlc-reverso.webp",
+    audience: "unisex",
   },
   {
     id: "patek-calatrava-96",
@@ -41,6 +42,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The 1932 blueprint for every dress watch since — Bauhaus discipline, by Patek of all houses.",
     image: "/watches/patek-calatrava-96.webp",
+    audience: "men",
   },
   {
     id: "rolex-bubbleback",
@@ -54,6 +56,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The rotor that began Rolex's automatic dynasty, housed in a case like a pocket of air.",
     image: "/watches/rolex-bubbleback.webp",
+    audience: "men",
   },
   {
     id: "iwc-mark-xi",
@@ -67,6 +70,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Built for RAF navigators with a soft-iron cage against magnetism; served quietly into the 1980s.",
     image: "/watches/iwc-mark-xi.webp",
+    audience: "men",
   },
 
   // ——— The golden mid-century (1950s–60s) ———
@@ -82,6 +86,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Observatory-grade chronometers with a dial like fine dinnerware. Mid-century Omega at its proudest.",
     image: "/watches/omega-constellation-piepan.webp",
+    audience: "men",
   },
   {
     id: "breitling-navitimer-806",
@@ -95,6 +100,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "A slide rule for the wrist, adopted by the pilots' own association — the instrument of the jet age.",
     image: "/watches/breitling-navitimer-806.webp",
+    audience: "men",
   },
   {
     id: "universal-polerouter",
@@ -108,6 +114,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "A 23-year-old Gérald Genta designed it for SAS's polar routes. Microtor inside, twilight charm outside.",
     image: "/watches/universal-polerouter.webp",
+    audience: "men",
   },
   {
     id: "rolex-submariner-6538",
@@ -121,6 +128,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Connery's Submariner in Dr. No. Oversized crown, no guards, pure intent.",
     image: "/watches/rolex-submariner-6538.webp",
+    audience: "men",
   },
   {
     id: "rolex-gmt-1675",
@@ -134,6 +142,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Built to Pan Am's brief so crews could keep home time. The early gilt dials now trade like paintings.",
     image: "/watches/rolex-gmt-1675.webp",
+    audience: "men",
   },
   {
     id: "rolex-datejust-1601",
@@ -147,6 +156,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Fluted bezel, pie-pan dial, Jubilee bracelet — the uniform of the mid-century gentleman.",
     image: "/watches/rolex-datejust-1601.webp",
+    audience: "men",
   },
   {
     id: "omega-speedmaster-ck2998",
@@ -160,6 +170,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Wally Schirra wore his into orbit in 1962 — the first Omega in space, before NASA ever asked.",
     image: "/watches/omega-speedmaster-ck2998.webp",
+    audience: "men",
   },
   {
     id: "rolex-submariner-5513",
@@ -173,6 +184,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Twenty-seven years in the catalogue. If one watch defines 'vintage diver', it is this one.",
     image: "/watches/rolex-submariner-5513.webp",
+    audience: "men",
   },
   {
     id: "rolex-explorer-1016",
@@ -185,6 +197,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb: "A black dial, 3-6-9, and absolutely nothing to prove.",
     image: "/watches/rolex-explorer-1016.webp",
+    audience: "men",
   },
   {
     id: "rolex-daytona-6239",
@@ -198,6 +211,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The reference Paul Newman made priceless — his own example sold for $17.8 million.",
     image: "/watches/rolex-daytona-6239.webp",
+    audience: "men",
   },
   {
     id: "heuer-carrera-2447",
@@ -211,6 +225,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Jack Heuer stripped the chronograph to its essentials and named it after a deadly Mexican road race.",
     image: "/watches/heuer-carrera-2447.webp",
+    audience: "men",
   },
   {
     id: "omega-speedmaster-105003",
@@ -224,6 +239,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "NASA flight-qualified it in March 1965; Ed White wore his on America's first spacewalk.",
     image: "/watches/omega-speedmaster-105003.webp",
+    audience: "men",
   },
   {
     id: "omega-seamaster-300-165024",
@@ -237,6 +253,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Issued to the Royal Navy's divers — the thinking person's vintage dive watch.",
     image: "/watches/omega-seamaster-300-165024.webp",
+    audience: "men",
   },
   {
     id: "seiko-62mas",
@@ -250,6 +267,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Japan's first professional diver — tested on Antarctic expeditions, reissued ever since.",
     image: "/watches/seiko-62mas.webp",
+    audience: "men",
   },
   {
     id: "omega-speedmaster-145022",
@@ -263,6 +281,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Twenty years of the calibre 861 moonwatch. Most steps taken on the Moon were taken wearing one.",
     image: "/watches/omega-speedmaster-145022.webp",
+    audience: "men",
   },
   {
     id: "zenith-el-primero-a386",
@@ -277,6 +296,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Announced on the 10th of January, 1969 — the first high-beat automatic chronograph, by a photo finish.",
     image: "/watches/zenith-el-primero-a386.webp",
+    audience: "men",
   },
   {
     id: "heuer-monaco-1133",
@@ -291,6 +311,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Square, blue, automatic — unveiled March 1969. McQueen wore it in Le Mans and it never stopped being cool.",
     image: "/watches/heuer-monaco-1133.webp",
+    audience: "men",
   },
   {
     id: "rolex-submariner-1680",
@@ -304,6 +325,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The first Submariner to tell the date. Purists grumbled; everyone bought one anyway.",
     image: "/watches/rolex-submariner-1680.webp",
+    audience: "men",
   },
   {
     id: "seiko-6139-pogue",
@@ -317,6 +339,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Flew on Skylab in a NASA pilot's personal kit — the first automatic chronograph in space, in gold-dialled glory.",
     image: "/watches/seiko-6139-pogue.webp",
+    audience: "men",
   },
 
   // ——— The audacious decade (1970s) ———
@@ -332,6 +355,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The 'Steve McQueen' — he never wore one. Orange hand, cave-diving brief, cult classic.",
     image: "/watches/rolex-explorer-ii-1655.webp",
+    audience: "men",
   },
   {
     id: "ap-royal-oak-5402",
@@ -346,6 +370,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Genta sketched it overnight; unveiled at Basel, April 1972 — a steel watch priced like gold that saved the house.",
     image: "/watches/ap-royal-oak-5402.webp",
+    audience: "men",
   },
   {
     id: "omega-speedmaster-125",
@@ -359,6 +384,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Two thousand pieces for Omega's 125th birthday — the first chronometer-certified automatic chronograph, gloriously brutalist.",
     image: "/watches/omega-speedmaster-125.webp",
+    audience: "men",
   },
   {
     id: "patek-nautilus-3700",
@@ -372,6 +398,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "'One of the world's costliest watches is made of steel.' Genta again — a porthole this time.",
     image: "/watches/patek-nautilus-3700.webp",
+    audience: "men",
   },
   {
     id: "rolex-oysterquartz",
@@ -385,6 +412,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Rolex's quartz heresy in an integrated-bracelet case — a sleeper the collectors are waking up to.",
     image: "/watches/rolex-oysterquartz.webp",
+    audience: "men",
   },
   {
     id: "cartier-tank-must",
@@ -398,6 +426,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Vermeil Tanks for the many — Cartier's elegance, democratized in the late seventies.",
     image: "/watches/cartier-tank-must.webp",
+    audience: "unisex",
   },
   {
     id: "cartier-santos-1978",
@@ -411,6 +440,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Relaunched in '78 with exposed screws and two-tone swagger — the original 1904 pilot's watch, reborn.",
     image: "/watches/cartier-santos-1978.webp",
+    audience: "unisex",
   },
 
   // ——— Quartz, crisis, character (1980s) ———
@@ -426,6 +456,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The transitional GMT — vintage looks outside, quickset conveniences within.",
     image: "/watches/rolex-gmt-16750.webp",
+    audience: "men",
   },
   {
     id: "swatch-gent",
@@ -440,6 +471,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Fifty-one parts, launched the 1st of March, 1983 — the plastic watch that saved Swiss watchmaking.",
     image: "/watches/swatch-gent.webp",
+    audience: "unisex",
   },
   {
     id: "gshock-dw5000c",
@@ -454,6 +486,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Dropped from a third-storey window two hundred times in testing, April 1983. The shape every G-Shock still honours.",
     image: "/watches/gshock-dw5000c.webp",
+    audience: "men",
   },
   {
     id: "patek-calatrava-3919",
@@ -467,6 +500,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Hobnail bezel, thirty-three millimetres of restraint — the Calatrava most people picture.",
     image: "/watches/patek-calatrava-3919.webp",
+    audience: "men",
   },
   {
     id: "rolex-submariner-16610",
@@ -480,6 +514,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The modern classic. For two decades, this was the watch people meant when they said 'a Rolex'.",
     image: "/watches/rolex-submariner-16610.webp",
+    audience: "men",
   },
   {
     id: "rolex-daytona-16520",
@@ -493,6 +528,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The 'Zenith' Daytona — Rolex's chronograph with a borrowed heart, now dearly collected.",
     image: "/watches/rolex-daytona-16520.webp",
+    audience: "men",
   },
   {
     id: "casio-f91w",
@@ -506,6 +542,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "A digital constant on every continent. Presidents and students wear the same ten-dollar watch.",
     image: "/watches/casio-f91w.webp",
+    audience: "unisex",
   },
   {
     id: "rolex-gmt-ii-16710",
@@ -519,6 +556,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Pepsi, Coke, or black — one case, three characters, eighteen years of production.",
     image: "/watches/rolex-gmt-ii-16710.webp",
+    audience: "men",
   },
 
   // ——— The revival (1990s) ———
@@ -534,6 +572,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The last Submariner with drilled lugs and an aluminium bezel. The connoisseur's modern Sub.",
     image: "/watches/rolex-submariner-14060.webp",
+    audience: "men",
   },
   {
     id: "panerai-luminor-marina",
@@ -547,6 +586,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "A Florentine military secret turned heavyweight icon once Stallone surfaced wearing one.",
     image: "/watches/panerai-luminor-marina.webp",
+    audience: "men",
   },
   {
     id: "omega-seamaster-2531",
@@ -560,6 +600,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "GoldenEye, 1995. Blue waves and skeleton hands — the Bond watch for a generation.",
     image: "/watches/omega-seamaster-2531.webp",
+    audience: "men",
   },
   {
     id: "lange-1",
@@ -574,6 +615,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Presented the 24th of October, 1994 — five years after the Wall fell, Saxony answered Switzerland.",
     image: "/watches/lange-1.webp",
+    audience: "men",
   },
   {
     id: "iwc-mark-xii",
@@ -587,6 +629,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The civilian heir to the RAF navigator — JLC calibre, a date, and quiet perfection for five short years.",
     image: "/watches/iwc-mark-xii.webp",
+    audience: "men",
   },
   {
     id: "seiko-skx007",
@@ -600,6 +643,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The gateway drug. Two decades of indestructible, ISO-rated value — ask any collector where they began.",
     image: "/watches/seiko-skx007.webp",
+    audience: "men",
   },
   {
     id: "omega-speedmaster-3570",
@@ -613,6 +657,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The moonwatch of the modern era — hesalite crystal, hand-wound, unchanged on principle.",
     image: "/watches/omega-speedmaster-3570.webp",
+    audience: "men",
   },
   {
     id: "patek-aquanaut-5065",
@@ -626,6 +671,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The Nautilus's younger sibling, in rubber — scandalous then, waitlisted now.",
     image: "/watches/patek-aquanaut-5065.webp",
+    audience: "men",
   },
 
   // ——— The modern canon (2000s–today) ———
@@ -641,6 +687,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Omega's return to orange bezels and serious depth, powered by the co-axial calibre 2500.",
     image: "/watches/omega-planet-ocean-2500.webp",
+    audience: "men",
   },
   {
     id: "patek-nautilus-5711",
@@ -654,6 +701,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The modern grail — discontinued at the height of the frenzy, which only made it worse.",
     image: "/watches/patek-nautilus-5711.webp",
+    audience: "men",
   },
   {
     id: "rolex-milgauss-gv",
@@ -668,6 +716,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Green sapphire and a lightning-bolt hand — the scientist's Rolex, revived with a wink at Basel, April 2007.",
     image: "/watches/rolex-milgauss-gv.webp",
+    audience: "men",
   },
   {
     id: "grand-seiko-snowflake",
@@ -681,6 +730,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Spring Drive's gliding seconds over a dial like fresh snow in Shinshu. Modern Japan's masterpiece.",
     image: "/watches/grand-seiko-snowflake.webp",
+    audience: "men",
   },
   {
     id: "tudor-black-bay-red",
@@ -694,6 +744,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The watch that rebuilt Tudor — burgundy bezel, rose logo, snowflake hands from the archives.",
     image: "/watches/tudor-black-bay-red.webp",
+    audience: "men",
   },
   {
     id: "rolex-daytona-116500",
@@ -708,6 +759,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "Ceramic bezel, March 2016, five-year waitlists — the watch that broke the steel-sports market.",
     image: "/watches/rolex-daytona-116500.webp",
+    audience: "men",
   },
   {
     id: "tudor-bb58",
@@ -722,5 +774,310 @@ export const WATCHES: Watch[] = [
     blurb:
       "Vintage proportions, modern manners — introduced March 2018 and immediately the enthusiast consensus.",
     image: "/watches/tudor-bb58.webp",
+    audience: "men",
+  },
+
+  // ——— Women's register (added) ———
+  {
+    id: "cartier-tank-louis",
+    brand: "Cartier",
+    model: "Tank Louis Cartier",
+    reference: "Tank LC",
+    yearStart: 1922,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "unisex",
+    blurb: "Louis Cartier's rounded Tank, drawn a century ago from the lines of a tank seen from above — still the thinking person's dress watch.",
+  },
+  {
+    id: "rolex-lady-datejust",
+    brand: "Rolex",
+    model: "Lady-Datejust",
+    reference: "Lady 26",
+    yearStart: 1957,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "women",
+    blurb: "The 26 mm Datejust — fluted bezel, Cyclops date, Jubilee bracelet. The default classic on a certain kind of wrist for three generations.",
+  },
+  {
+    id: "cartier-baignoire",
+    brand: "Cartier",
+    model: "Baignoire",
+    reference: "Baignoire",
+    yearStart: 1958,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "women",
+    blurb: "An oval turned on its side like a filled bath — named in 1973, and Cartier shape-watchmaking at its most quietly confident.",
+  },
+  {
+    id: "omega-constellation-manhattan",
+    brand: "Omega",
+    model: "Constellation \"Manhattan\"",
+    reference: "Manhattan",
+    yearStart: 1982,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "unisex",
+    blurb: "Four griffes gripping the crystal and an integrated bracelet — Omega's poised answer to the quartz years, drawn by Carol Didisheim.",
+  },
+  {
+    id: "cartier-panthere",
+    brand: "Cartier",
+    model: "Panthère de Cartier",
+    reference: "Panthère",
+    yearStart: 1983,
+    yearEnd: 2004,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "women",
+    blurb: "A brick-link bracelet that pours over the wrist like the cat it is named for. Retired in 2004, mourned until its 2017 return.",
+  },
+  {
+    id: "nomos-ludwig",
+    brand: "NOMOS Glashütte",
+    model: "Ludwig",
+    reference: "Ludwig 33",
+    yearStart: 1992,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "unisex",
+    blurb: "Bauhaus to the bone — blued hands, a railroad minute track, Glashütte restraint. The 33 mm wears like a whisper.",
+  },
+  {
+    id: "longines-grande-classique",
+    brand: "Longines",
+    model: "La Grande Classique",
+    reference: "La Grande Classique",
+    yearStart: 1992,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$",
+    audience: "unisex",
+    blurb: "Barely four millimetres thick — the ultra-slim disc Longines has quietly made for every elegant wrist since.",
+  },
+  {
+    id: "seiko-lukia",
+    brand: "Seiko",
+    model: "Lukia",
+    reference: "Lukia",
+    yearStart: 1995,
+    yearEnd: null,
+    style: "everyday",
+    priceTier: "$",
+    audience: "women",
+    blurb: "Seiko's watch for the working woman of Ginza — Japanese precision with a quiet glamour, and a cult name at home.",
+  },
+  {
+    id: "cartier-tank-francaise",
+    brand: "Cartier",
+    model: "Tank Française",
+    reference: "Tank Française",
+    yearStart: 1996,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "women",
+    blurb: "The Tank gone sporty — integrated bracelet, squared case. The one everyone pictures on a wrist in the nineties.",
+  },
+  {
+    id: "jlc-reverso-duetto",
+    brand: "Jaeger-LeCoultre",
+    model: "Reverso Duetto",
+    reference: "Reverso Duetto",
+    yearStart: 1997,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "women",
+    blurb: "Flip it: a day face of restraint, a night face of diamonds, both told by one movement. The Reverso's feminine double life.",
+  },
+  {
+    id: "longines-dolcevita",
+    brand: "Longines",
+    model: "DolceVita",
+    reference: "DolceVita",
+    yearStart: 1997,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$",
+    audience: "women",
+    blurb: "An Art Deco rectangle descended from a 1927 Longines — la dolce vita for the wrist, elegance as an attitude.",
+  },
+  {
+    id: "patek-twenty4",
+    brand: "Patek Philippe",
+    model: "Twenty~4",
+    reference: "4910",
+    yearStart: 1999,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "women",
+    blurb: "Patek's first watch made only for women — an Art Deco manchette asking who you will be in the next twenty-four hours.",
+  },
+  {
+    id: "frederique-constant-double-heart",
+    brand: "Frederique Constant",
+    model: "Ladies Automatic \"Double Heart Beat\"",
+    reference: "Double Heart Beat",
+    yearStart: 2006,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "women",
+    blurb: "An aperture shaped like two hearts opening onto the balance — Frederique Constant's gracious path into mechanical watches.",
+  },
+  {
+    id: "cartier-ballon-bleu",
+    brand: "Cartier",
+    model: "Ballon Bleu",
+    reference: "Ballon Bleu",
+    yearStart: 2007,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "unisex",
+    blurb: "A sapphire cabochon tucked under a sweeping guard — Cartier's round, modern cushion, beloved most in its smaller sizes.",
+  },
+  {
+    id: "longines-primaluna",
+    brand: "Longines",
+    model: "PrimaLuna",
+    reference: "PrimaLuna",
+    yearStart: 2009,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$",
+    audience: "women",
+    blurb: "Named for the moon and shaped to match — a soft, rounded case that became Longines' feminine signature.",
+  },
+  {
+    id: "tudor-clair-de-rose",
+    brand: "Tudor",
+    model: "Clair de Rose",
+    reference: "Clair de Rose",
+    yearStart: 2013,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "women",
+    blurb: "‘Moonlight’ in French, with a rose where the seconds pivot — the watch that gave Tudor a feminine voice.",
+  },
+  {
+    id: "grand-seiko-elegance-ladies",
+    brand: "Grand Seiko",
+    model: "Elegance (Ladies)",
+    reference: "STGF",
+    yearStart: 2017,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$",
+    audience: "women",
+    blurb: "Zaratsu-polished cases and a dial finished like still water, shrunk to an elegant wrist — Japan's quiet luxury, for her.",
+  },
+
+  // ——— Further enthusiast men's (added) ———
+  {
+    id: "hamilton-ventura",
+    brand: "Hamilton",
+    model: "Ventura",
+    reference: "Ventura",
+    yearStart: 1957,
+    yearEnd: null,
+    style: "everyday",
+    priceTier: "$$",
+    audience: "men",
+    blurb: "The first battery-powered watch, in a shield shaped like the future the fifties imagined. Elvis wore one; so did Men in Black.",
+  },
+  {
+    id: "longines-super-compressor",
+    brand: "Longines",
+    model: "Diver (Super Compressor)",
+    reference: "7042",
+    yearStart: 1959,
+    yearEnd: 1968,
+    style: "diver",
+    priceTier: "$$",
+    audience: "men",
+    blurb: "Twin crowns and an inner bezel in a case that seals tighter the deeper you go — the ancestor of today's Legend Diver.",
+  },
+  {
+    id: "breitling-top-time",
+    brand: "Breitling",
+    model: "Top Time",
+    reference: "2002",
+    yearStart: 1964,
+    yearEnd: 1976,
+    style: "chronograph",
+    priceTier: "$$",
+    audience: "men",
+    blurb: "Breitling's affordable chronograph for the young and fast — and the one Q handed Bond, Geiger counter included, in Thunderball.",
+  },
+  {
+    id: "cartier-crash",
+    brand: "Cartier",
+    model: "Crash",
+    reference: "Crash",
+    yearStart: 1967,
+    yearEnd: null,
+    style: "dress",
+    priceTier: "$$$",
+    audience: "unisex",
+    blurb: "A Tank that seems to have melted — born in Cartier's London workshop in '67, now the most coveted shape in watchmaking.",
+  },
+  {
+    id: "zenith-defy-a3642",
+    brand: "Zenith",
+    model: "Defy",
+    reference: "A3642",
+    yearStart: 1969,
+    yearEnd: 1979,
+    style: "sport",
+    priceTier: "$$",
+    audience: "men",
+    blurb: "The octagonal 'bank vault' — a faceted, integrated-bracelet sport watch that beat the Royal Oak to the idea by three years.",
+  },
+  {
+    id: "citizen-bullhead",
+    brand: "Citizen",
+    model: "Tsuno Chrono \"Bullhead\"",
+    reference: "8110A",
+    yearStart: 1973,
+    yearEnd: 1980,
+    style: "chronograph",
+    priceTier: "$",
+    audience: "men",
+    blurb: "Pushers up top like horns over an automatic chronograph heart — Japan's racing chrono, back in fashion since Tarantino.",
+  },
+  {
+    id: "vacheron-222",
+    brand: "Vacheron Constantin",
+    model: "222",
+    reference: "44018",
+    yearStart: 1977,
+    yearEnd: 1985,
+    style: "sport",
+    priceTier: "$$$",
+    audience: "men",
+    blurb: "The holy trinity's integrated-sport entry, drawn by Jörg Hysek for Vacheron's 222nd year — steel luxury under a fluted bezel.",
+  },
+  {
+    id: "tissot-prx",
+    brand: "Tissot",
+    model: "PRX",
+    reference: "40512",
+    yearStart: 1978,
+    yearEnd: 1985,
+    style: "sport",
+    priceTier: "$",
+    audience: "men",
+    blurb: "Precise, Robust, 10 atmospheres — a slimline integrated-bracelet quartz from the heart of the seventies, reborn to acclaim in 2021.",
   },
 ];

@@ -5,10 +5,12 @@ import WatchCard from "@/components/WatchCard";
 import { WATCHES } from "@/data/watches";
 import {
   isPerfectMatch,
+  matchesAudience,
   MONTHS,
   numberInWords,
   toRoman,
   watchesForYear,
+  type WatchAudience,
   type WatchStyle,
 } from "@/lib/watches";
 
@@ -21,6 +23,12 @@ const STYLE_LABELS: Record<WatchStyle, string> = {
   everyday: "Everyday",
 };
 
+const AUDIENCE_OPTIONS: { value: WatchAudience | "all"; label: string }[] = [
+  { value: "all", label: "Everyone" },
+  { value: "women", label: "Women's" },
+  { value: "men", label: "Men's" },
+];
+
 export default function Gallery({
   year,
   month,
@@ -30,19 +38,33 @@ export default function Gallery({
   month: number | null;
   onReset: () => void;
 }) {
+  const [audience, setAudience] = useState<WatchAudience | "all">("all");
   const [filter, setFilter] = useState<WatchStyle | "all">("all");
 
   const matches = useMemo(() => watchesForYear(WATCHES, year, month), [year, month]);
+  const byAudience = useMemo(
+    () => matches.filter((w) => matchesAudience(w, audience)),
+    [matches, audience]
+  );
   const stylesPresent = useMemo(
     () =>
       (Object.keys(STYLE_LABELS) as WatchStyle[]).filter((s) =>
-        matches.some((w) => w.style === s)
+        byAudience.some((w) => w.style === s)
       ),
-    [matches]
+    [byAudience]
   );
+  const effectiveStyle =
+    filter !== "all" && !stylesPresent.includes(filter) ? "all" : filter;
   const visible =
-    filter === "all" ? matches : matches.filter((w) => w.style === filter);
+    effectiveStyle === "all"
+      ? byAudience
+      : byAudience.filter((w) => w.style === effectiveStyle);
   const perfect = matches.find((w) => isPerfectMatch(w, year, month));
+
+  function selectAudience(value: WatchAudience | "all") {
+    setAudience(value);
+    setFilter("all");
+  }
 
   return (
     <section className="mx-auto max-w-6xl animate-rise px-6 pb-24 pt-12 sm:pt-16">
@@ -94,19 +116,42 @@ export default function Gallery({
         </p>
       </div>
 
-      {/* filters */}
+      {/* who it's for */}
       {matches.length > 0 && (
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+        <div className="mt-12 flex justify-center">
+          <div className="inline-flex border border-ink/25">
+            {AUDIENCE_OPTIONS.map((opt, i) => (
+              <button
+                key={opt.value}
+                onClick={() => selectAudience(opt.value)}
+                className={`px-5 py-2 text-[10.5px] uppercase tracking-[0.25em] transition-colors duration-200 ${
+                  i > 0 ? "border-l border-ink/25" : ""
+                } ${
+                  audience === opt.value
+                    ? "bg-olive text-cream"
+                    : "text-ink/65 hover:text-olive"
+                }`}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* style filters */}
+      {byAudience.length > 0 && (
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           <FilterChip
             label="All"
-            active={filter === "all"}
+            active={effectiveStyle === "all"}
             onClick={() => setFilter("all")}
           />
           {stylesPresent.map((s) => (
             <FilterChip
               key={s}
               label={STYLE_LABELS[s]}
-              active={filter === s}
+              active={effectiveStyle === s}
               onClick={() => setFilter(s)}
             />
           ))}
@@ -114,11 +159,25 @@ export default function Gallery({
       )}
 
       {/* the ledger entries */}
-      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {visible.map((w, i) => (
-          <WatchCard key={w.id} watch={w} year={year} month={month} index={i} />
-        ))}
-      </div>
+      {matches.length > 0 && byAudience.length === 0 ? (
+        <p className="mt-12 text-center text-[15px] italic leading-relaxed text-ink/60">
+          No {audience === "women" ? "women's" : "men's"} pieces are recorded for
+          this year yet — the Register grows by hand. Try{" "}
+          <button
+            onClick={() => selectAudience("all")}
+            className="underline decoration-ink/30 underline-offset-4 hover:text-olive"
+          >
+            Everyone
+          </button>
+          .
+        </p>
+      ) : (
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {visible.map((w, i) => (
+            <WatchCard key={w.id} watch={w} year={year} month={month} index={i} />
+          ))}
+        </div>
+      )}
 
       <div className="mt-16 text-center">
         <button
