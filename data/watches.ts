@@ -27,6 +27,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Flipped to survive polo matches in 1931; still made, still the dress watch for people who read.",
+    image: "/watches/jlc-reverso.webp",
   },
   {
     id: "patek-calatrava-96",
@@ -39,8 +40,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The 1932 blueprint for every dress watch since — Bauhaus discipline, by Patek of all houses.",
-    image: "/watches/patek-calatrava-96.jpg",
-    imageCredit: "User:Jeff Muscato, Public domain, via Wikimedia Commons",
+    image: "/watches/patek-calatrava-96.webp",
   },
   {
     id: "rolex-bubbleback",
@@ -53,6 +53,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The rotor that began Rolex's automatic dynasty, housed in a case like a pocket of air.",
+    image: "/watches/rolex-bubbleback.webp",
   },
   {
     id: "iwc-mark-xi",
@@ -65,6 +66,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Built for RAF navigators with a soft-iron cage against magnetism; served quietly into the 1980s.",
+    image: "/watches/iwc-mark-xi.jpeg",
   },
 
   // ——— The golden mid-century (1950s–60s) ———
@@ -79,6 +81,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Observatory-grade chronometers with a dial like fine dinnerware. Mid-century Omega at its proudest.",
+    image: "/watches/omega-constellation-piepan.jpg",
   },
   {
     id: "breitling-navitimer-806",
@@ -91,8 +94,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "A slide rule for the wrist, adopted by the pilots' own association — the instrument of the jet age.",
-    image: "/watches/breitling-navitimer-806.jpg",
-    imageCredit: "Torsten Bolten, CC BY-SA 3.0, via Wikimedia Commons",
+    image: "/watches/breitling-navitimer-806.jpeg",
   },
   {
     id: "universal-polerouter",
@@ -105,6 +107,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "A 23-year-old Gérald Genta designed it for SAS's polar routes. Microtor inside, twilight charm outside.",
+    image: "/watches/universal-polerouter.jpg",
   },
   {
     id: "rolex-submariner-6538",
@@ -117,8 +120,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Connery's Submariner in Dr. No. Oversized crown, no guards, pure intent.",
-    image: "/watches/rolex-submariner-6538.jpg",
-    imageCredit: "EMore98, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/rolex-submariner-6538.webp",
   },
   {
     id: "rolex-gmt-1675",
@@ -131,8 +133,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Built to Pan Am's brief so crews could keep home time. The early gilt dials now trade like paintings.",
-    image: "/watches/rolex-gmt-1675.jpg",
-    imageCredit: "Thierry Mostra-store, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/rolex-gmt-1675.webp",
   },
   {
     id: "rolex-datejust-1601",
@@ -145,8 +146,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Fluted bezel, pie-pan dial, Jubilee bracelet — the uniform of the mid-century gentleman.",
-    image: "/watches/rolex-datejust-1601.jpg",
-    imageCredit: "Eternalsleeper, CC BY 3.0, via Wikimedia Commons",
+    image: "/watches/rolex-datejust-1601.webp",
   },
   {
     id: "omega-speedmaster-ck2998",
@@ -159,6 +159,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Wally Schirra wore his into orbit in 1962 — the first Omega in space, before NASA ever asked.",
+    image: "/watches/omega-speedmaster-ck2998.jpg",
   },
   {
     id: "rolex-submariner-5513",
@@ -172,7 +173,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Twenty-seven years in the catalogue. If one watch defines 'vintage diver', it is this one.",
     image: "/watches/rolex-submariner-5513.jpg",
-    imageCredit: "Guy Sie, CC BY-SA 2.0, via Wikimedia Commons",
   },
   {
     id: "rolex-explorer-1016",
@@ -184,6 +184,7 @@ export const WATCHES: Watch[] = [
     style: "sport",
     priceTier: "$$$",
     blurb: "A black dial, 3-6-9, and absolutely nothing to prove.",
+    image: "/watches/rolex-explorer-1016.jpg",
   },
   {
     id: "rolex-daytona-6239",
@@ -196,6 +197,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The reference Paul Newman made priceless — his own example sold for $17.8 million.",
+    image: "/watches/rolex-daytona-6239.webp",
   },
   {
     id: "heuer-carrera-2447",
@@ -208,6 +210,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Jack Heuer stripped the chronograph to its essentials and named it after a deadly Mexican road race.",
+    image: "/watches/heuer-carrera-2447.jpg",
   },
   {
     id: "omega-speedmaster-105003",
@@ -220,6 +223,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "NASA flight-qualified it in March 1965; Ed White wore his on America's first spacewalk.",
+    image: "/watches/omega-speedmaster-105003.jpg",
   },
   {
     id: "omega-seamaster-300-165024",
@@ -232,6 +236,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Issued to the Royal Navy's divers — the thinking person's vintage dive watch.",
+    image: "/watches/omega-seamaster-300-165024.jpg",
   },
   {
     id: "seiko-62mas",
@@ -244,6 +249,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Japan's first professional diver — tested on Antarctic expeditions, reissued ever since.",
+    image: "/watches/seiko-62mas.webp",
   },
   {
     id: "omega-speedmaster-145022",
@@ -256,8 +262,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Twenty years of the calibre 861 moonwatch. Most steps taken on the Moon were taken wearing one.",
-    image: "/watches/omega-speedmaster-145022.jpg",
-    imageCredit: "Torsten Bolten, Public domain, via Wikimedia Commons",
+    image: "/watches/omega-speedmaster-145022.jpeg",
   },
   {
     id: "zenith-el-primero-a386",
@@ -271,6 +276,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Announced on the 10th of January, 1969 — the first high-beat automatic chronograph, by a photo finish.",
+    image: "/watches/zenith-el-primero-a386.webp",
   },
   {
     id: "heuer-monaco-1133",
@@ -285,7 +291,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Square, blue, automatic — unveiled March 1969. McQueen wore it in Le Mans and it never stopped being cool.",
     image: "/watches/heuer-monaco-1133.jpg",
-    imageCredit: "EMore98, CC BY-SA 4.0, via Wikimedia Commons",
   },
   {
     id: "rolex-submariner-1680",
@@ -298,6 +303,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The first Submariner to tell the date. Purists grumbled; everyone bought one anyway.",
+    image: "/watches/rolex-submariner-1680.jpg",
   },
   {
     id: "seiko-6139-pogue",
@@ -311,7 +317,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Flew on Skylab in a NASA pilot's personal kit — the first automatic chronograph in space, in gold-dialled glory.",
     image: "/watches/seiko-6139-pogue.jpg",
-    imageCredit: "Dnalor 01, CC BY-SA 3.0 at, via Wikimedia Commons",
   },
 
   // ——— The audacious decade (1970s) ———
@@ -326,8 +331,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The 'Steve McQueen' — he never wore one. Orange hand, cave-diving brief, cult classic.",
-    image: "/watches/rolex-explorer-ii-1655.jpg",
-    imageCredit: "Clyde94, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/rolex-explorer-ii-1655.jpeg",
   },
   {
     id: "ap-royal-oak-5402",
@@ -341,6 +345,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Genta sketched it overnight; unveiled at Basel, April 1972 — a steel watch priced like gold that saved the house.",
+    image: "/watches/ap-royal-oak-5402.webp",
   },
   {
     id: "omega-speedmaster-125",
@@ -353,6 +358,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Two thousand pieces for Omega's 125th birthday — the first chronometer-certified automatic chronograph, gloriously brutalist.",
+    image: "/watches/omega-speedmaster-125.jpeg",
   },
   {
     id: "patek-nautilus-3700",
@@ -365,6 +371,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "'One of the world's costliest watches is made of steel.' Genta again — a porthole this time.",
+    image: "/watches/patek-nautilus-3700.webp",
   },
   {
     id: "rolex-oysterquartz",
@@ -377,8 +384,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Rolex's quartz heresy in an integrated-bracelet case — a sleeper the collectors are waking up to.",
-    image: "/watches/rolex-oysterquartz.jpg",
-    imageCredit: "Esperto Orologi at Italian Wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+    image: "/watches/rolex-oysterquartz.webp",
   },
   {
     id: "cartier-tank-must",
@@ -392,7 +398,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Vermeil Tanks for the many — Cartier's elegance, democratized in the late seventies.",
     image: "/watches/cartier-tank-must.jpg",
-    imageCredit: "Guy Sie, CC BY-SA 2.0, via Wikimedia Commons",
   },
   {
     id: "cartier-santos-1978",
@@ -405,6 +410,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Relaunched in '78 with exposed screws and two-tone swagger — the original 1904 pilot's watch, reborn.",
+    image: "/watches/cartier-santos-1978.webp",
   },
 
   // ——— Quartz, crisis, character (1980s) ———
@@ -419,8 +425,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The transitional GMT — vintage looks outside, quickset conveniences within.",
-    image: "/watches/rolex-gmt-16750.jpg",
-    imageCredit: "Alesili, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/rolex-gmt-16750.jpeg",
   },
   {
     id: "swatch-gent",
@@ -434,6 +439,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     blurb:
       "Fifty-one parts, launched the 1st of March, 1983 — the plastic watch that saved Swiss watchmaking.",
+    image: "/watches/swatch-gent.avif",
   },
   {
     id: "gshock-dw5000c",
@@ -447,8 +453,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     blurb:
       "Dropped from a third-storey window two hundred times in testing, April 1983. The shape every G-Shock still honours.",
-    image: "/watches/gshock-dw5000c.jpg",
-    imageCredit: "Stollenbaeck, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/gshock-dw5000c.avif",
   },
   {
     id: "patek-calatrava-3919",
@@ -461,6 +466,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Hobnail bezel, thirty-three millimetres of restraint — the Calatrava most people picture.",
+    image: "/watches/patek-calatrava-3919.webp",
   },
   {
     id: "rolex-submariner-16610",
@@ -473,8 +479,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The modern classic. For two decades, this was the watch people meant when they said 'a Rolex'.",
-    image: "/watches/rolex-submariner-16610.jpg",
-    imageCredit: "FrankWilliams, Public domain, via Wikimedia Commons",
+    image: "/watches/rolex-submariner-16610.webp",
   },
   {
     id: "rolex-daytona-16520",
@@ -487,6 +492,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The 'Zenith' Daytona — Rolex's chronograph with a borrowed heart, now dearly collected.",
+    image: "/watches/rolex-daytona-16520.jpg",
   },
   {
     id: "casio-f91w",
@@ -500,7 +506,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "A digital constant on every continent. Presidents and students wear the same ten-dollar watch.",
     image: "/watches/casio-f91w.jpg",
-    imageCredit: "Ashley Pomeroy, CC BY-SA 3.0, via Wikimedia Commons",
   },
   {
     id: "rolex-gmt-ii-16710",
@@ -514,7 +519,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Pepsi, Coke, or black — one case, three characters, eighteen years of production.",
     image: "/watches/rolex-gmt-ii-16710.jpg",
-    imageCredit: "Wikimedia Commons, CC BY-SA 4.0",
   },
 
   // ——— The revival (1990s) ———
@@ -529,6 +533,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The last Submariner with drilled lugs and an aluminium bezel. The connoisseur's modern Sub.",
+    image: "/watches/rolex-submariner-14060.jpg",
   },
   {
     id: "panerai-luminor-marina",
@@ -542,7 +547,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "A Florentine military secret turned heavyweight icon once Stallone surfaced wearing one.",
     image: "/watches/panerai-luminor-marina.jpg",
-    imageCredit: "Daniel Zimmermann from Bayern, Deutschland (Germany), CC BY 2.0, via Wikimedia Commons",
   },
   {
     id: "omega-seamaster-2531",
@@ -555,6 +559,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "GoldenEye, 1995. Blue waves and skeleton hands — the Bond watch for a generation.",
+    image: "/watches/omega-seamaster-2531.jpg",
   },
   {
     id: "lange-1",
@@ -568,6 +573,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Presented the 24th of October, 1994 — five years after the Wall fell, Saxony answered Switzerland.",
+    image: "/watches/lange-1.jpg",
   },
   {
     id: "iwc-mark-xii",
@@ -580,6 +586,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The civilian heir to the RAF navigator — JLC calibre, a date, and quiet perfection for five short years.",
+    image: "/watches/iwc-mark-xii.jpeg",
   },
   {
     id: "seiko-skx007",
@@ -592,8 +599,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     blurb:
       "The gateway drug. Two decades of indestructible, ISO-rated value — ask any collector where they began.",
-    image: "/watches/seiko-skx007.jpg",
-    imageCredit: "Ashley Pomeroy, CC BY-SA 4.0, via Wikimedia Commons",
+    image: "/watches/seiko-skx007.webp",
   },
   {
     id: "omega-speedmaster-3570",
@@ -606,8 +612,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The moonwatch of the modern era — hesalite crystal, hand-wound, unchanged on principle.",
-    image: "/watches/omega-speedmaster-3570.jpg",
-    imageCredit: "Daniel Zimmermann from Bayern, Deutschland (Germany), CC BY 2.0, via Wikimedia Commons",
+    image: "/watches/omega-speedmaster-3570.webp",
   },
   {
     id: "patek-aquanaut-5065",
@@ -620,6 +625,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "The Nautilus's younger sibling, in rubber — scandalous then, waitlisted now.",
+    image: "/watches/patek-aquanaut-5065.webp",
   },
 
   // ——— The modern canon (2000s–today) ———
@@ -634,6 +640,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Omega's return to orange bezels and serious depth, powered by the co-axial calibre 2500.",
+    image: "/watches/omega-planet-ocean-2500.webp",
   },
   {
     id: "patek-nautilus-5711",
@@ -647,7 +654,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "The modern grail — discontinued at the height of the frenzy, which only made it worse.",
     image: "/watches/patek-nautilus-5711.jpg",
-    imageCredit: "Patek Philippe SA, CC BY-SA 4.0, via Wikimedia Commons",
   },
   {
     id: "rolex-milgauss-gv",
@@ -662,7 +668,6 @@ export const WATCHES: Watch[] = [
     blurb:
       "Green sapphire and a lightning-bolt hand — the scientist's Rolex, revived with a wink at Basel, April 2007.",
     image: "/watches/rolex-milgauss-gv.jpg",
-    imageCredit: "Carolyn Maria Adams, CC BY-SA 4.0, via Wikimedia Commons",
   },
   {
     id: "grand-seiko-snowflake",
@@ -675,6 +680,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Spring Drive's gliding seconds over a dial like fresh snow in Shinshu. Modern Japan's masterpiece.",
+    image: "/watches/grand-seiko-snowflake.jpg",
   },
   {
     id: "tudor-black-bay-red",
@@ -687,6 +693,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "The watch that rebuilt Tudor — burgundy bezel, rose logo, snowflake hands from the archives.",
+    image: "/watches/tudor-black-bay-red.webp",
   },
   {
     id: "rolex-daytona-116500",
@@ -700,6 +707,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     blurb:
       "Ceramic bezel, March 2016, five-year waitlists — the watch that broke the steel-sports market.",
+    image: "/watches/rolex-daytona-116500.jpg",
   },
   {
     id: "tudor-bb58",
@@ -713,5 +721,6 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     blurb:
       "Vintage proportions, modern manners — introduced March 2018 and immediately the enthusiast consensus.",
+    image: "/watches/tudor-bb58.webp",
   },
 ];

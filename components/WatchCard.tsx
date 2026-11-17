@@ -27,26 +27,22 @@ export default function WatchCard({
       style={{ animationDelay: `${Math.min(index * 70, 560)}ms` }}
     >
       {/* plate */}
-      <div className="relative border-b border-ink/15 bg-parchment px-6 pb-2 pt-4 text-olive">
+      <div className="relative border-b border-ink/15 bg-parchment text-olive">
         {watch.image ? (
-          <div className="relative mx-auto h-44 w-full">
+          <div className="relative h-52 w-full overflow-hidden">
             <Image
               src={watch.image}
               alt={`${watch.brand} ${watch.model}`}
               fill
               sizes="(max-width: 640px) 100vw, 33vw"
-              className="object-contain mix-blend-multiply"
+              className="object-cover"
             />
           </div>
         ) : (
-          <WatchIllustration style={watch.style} className="mx-auto h-44 w-auto" />
+          <div className="px-6 pb-2 pt-4">
+            <WatchIllustration style={watch.style} className="mx-auto h-44 w-auto" />
+          </div>
         )}
-        {watch.imageCredit && (
-          <span className="absolute bottom-1 right-2 max-w-[60%] truncate text-right text-[8px] leading-tight text-ink/35">
-            {watch.imageCredit}
-          </span>
-        )}
-
 
         {perfect && (
           <div className="absolute -right-2 -top-3 flex h-20 w-20 rotate-12 flex-col items-center justify-center rounded-full border border-brass bg-cream text-center text-brass shadow-sm outline outline-1 outline-offset-[-5px] outline-brass/60">
