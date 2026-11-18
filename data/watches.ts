@@ -31,6 +31,7 @@ export const WATCHES: Watch[] = [
     audience: "unisex",
     blurb:
       "Louis Cartier stretched the Tank long and curved it to hug the wrist — made in tiny numbers from 1921, and the most coveted Tank of them all.",
+    image: "/watches/cartier-tank-cintree.webp",
   },
   {
     id: "jlc-reverso",
@@ -86,6 +87,7 @@ export const WATCHES: Watch[] = [
     audience: "unisex",
     blurb:
       "A single gold dot at twelve for the sun at high noon — Nathan Horwitt's 1947 dial so pure the Museum of Modern Art collected it.",
+    image: "/watches/movado-museum.webp",
   },
   {
     id: "iwc-mark-xi",
@@ -115,6 +117,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The first modern dive watch — built in 1953 for France's combat frogmen, with a locking rotating bezel, a year before the Submariner.",
+    image: "/watches/blancpain-fifty-fathoms.webp",
   },
   {
     id: "rolex-gmt-6542",
@@ -128,6 +131,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The original GMT-Master, built to Pan Am's brief with a Bakelite 'Pepsi' bezel so crews could read two time zones at once.",
+    image: "/watches/rolex-gmt-6542.webp",
   },
   {
     id: "breitling-navitimer-806",
@@ -197,6 +201,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Omega's first true dive watch — broad-arrow hands and a bidirectional bezel, the 1957 original the modern Seamaster 300 descends from.",
+    image: "/watches/omega-seamaster-300-ck2913.webp",
   },
   {
     id: "longines-super-compressor",
@@ -224,6 +229,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "A watch that hums instead of ticks — the tuning-fork Accutron, shown dial-less to reveal its fork; its electronics timed NASA's early spacecraft.",
+    image: "/watches/bulova-accutron-spaceview.webp",
   },
   {
     id: "rado-captain-cook",
@@ -237,6 +243,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Rado's 1962 skin-diver — 220 metres, a rotating anchor on the crown, a cult sixties diver now reborn to a new following.",
+    image: "/watches/rado-captain-cook.webp",
   },
   {
     id: "rolex-submariner-5513",
@@ -361,6 +368,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Japan's cheerful, in-house answer to the dive watch — the Weekly Auto 'King Diver' put a colourful, affordable automatic diver on ordinary wrists.",
+    image: "/watches/orient-king-diver.webp",
   },
   {
     id: "cartier-crash",
@@ -388,6 +396,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The watch that wrote Grand Seiko's 'Grammar of Design' — flat, Zaratsu-polished surfaces that catch the light like a blade.",
+    image: "/watches/grand-seiko-44gs.webp",
   },
   {
     id: "doxa-sub-300",
@@ -401,6 +410,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The orange-dialled diver for everyman — the 1967 SUB 300 was first with a no-decompression bezel, built for sport divers, not navies.",
+    image: "/watches/doxa-sub-300.webp",
   },
   {
     id: "seiko-6139-pogue",
@@ -428,6 +438,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "An alarm that rings underwater — the Memovox Polaris paired a mechanical alarm with an inner timing bezel, a cult Jaeger-LeCoultre diver.",
+    image: "/watches/jlc-memovox-polaris.webp",
   },
   {
     id: "heuer-autavia-2446",
@@ -441,6 +452,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The screw-back Autavia that Formula 1 champion Jochen Rindt wore — a Valjoux 72 racing chronograph, now one of the most collected Heuers.",
+    image: "/watches/heuer-autavia-2446.webp",
   },
   {
     id: "zenith-el-primero-a386",
@@ -528,6 +540,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "One of the first automatic chronographs, on the Caliber 11 that reached the wrist in 1971 — and, being a Hamilton, an attainable one.",
+    image: "/watches/hamilton-pan-europ.webp",
   },
   {
     id: "ap-royal-oak-5402",
@@ -556,6 +569,7 @@ export const WATCHES: Watch[] = [
     audience: "unisex",
     blurb:
       "The President at its most outrageous — a Stella lacquer dial in turquoise, a seventies colour Rolex now prefers to forget it ever made.",
+    image: "/watches/rolex-day-date-1803-stella.webp",
   },
   {
     id: "rolex-lady-datejust-6917",
@@ -569,6 +583,7 @@ export const WATCHES: Watch[] = [
     audience: "women",
     blurb:
       "A glossy oxblood 'Stella' lacquer dial Rolex pretends it never made — the cult vintage ladies' Datejust, 26 mm of seventies colour.",
+    image: "/watches/rolex-lady-datejust-6917.webp",
   },
   {
     id: "citizen-bullhead",
@@ -596,6 +611,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "The first titanium shrouded professional diver — the 1975 'Tuna', built for saturation divers, and still the shape Seiko's pro divers wear.",
+    image: "/watches/seiko-grandfather-tuna.webp",
   },
   {
     id: "girard-perregaux-laureato",
@@ -609,6 +625,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Girard-Perregaux's octagonal integrated-sport watch — launched in 1975 on the brand's own high-beat quartz, a quiet rival to the Royal Oak and Nautilus.",
+    image: "/watches/girard-perregaux-laureato.webp",
   },
   {
     id: "patek-nautilus-3700",
@@ -636,6 +653,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Genta's third integrated-sport design after the Royal Oak and Nautilus — soft-iron anti-magnetic, and the rarest of the three.",
+    image: "/watches/iwc-ingenieur-sl.webp",
   },
   {
     id: "rolex-oysterquartz",
@@ -723,6 +741,7 @@ export const WATCHES: Watch[] = [
     blurb:
       "The see-through Swatch from the first 1983 collection — a transparent case over a plastic movement, part of the watch that saved Swiss watchmaking.",
     audience: "unisex",
+    image: "/watches/swatch-jellyfish.webp",
   },
   {
     id: "cartier-panthere",
@@ -750,6 +769,7 @@ export const WATCHES: Watch[] = [
     audience: "unisex",
     blurb:
       "The first watch to carry the TAG Heuer name — a cheap, colourful, fibreglass-and-steel quartz that sat on nearly every eighties wrist.",
+    image: "/watches/tag-heuer-formula-1.webp",
   },
   {
     id: "rolex-daytona-16520",
@@ -807,6 +827,7 @@ export const WATCHES: Watch[] = [
     audience: "men",
     blurb:
       "Where Panerai-as-a-brand begins — roughly 677 'Logo' pieces made before Vendôme took the Florentine military maker commercial.",
+    image: "/watches/panerai-pre-vendome.webp",
   },
   {
     id: "omega-seamaster-2531",
