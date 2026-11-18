@@ -789,6 +789,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "unisex",
     blurb: "Louis Cartier's rounded Tank, drawn a century ago from the lines of a tank seen from above — still the thinking person's dress watch.",
+    image: "/watches/cartier-tank-louis.webp",
   },
   {
     id: "rolex-lady-datejust",
@@ -801,6 +802,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "women",
     blurb: "The 26 mm Datejust — fluted bezel, Cyclops date, Jubilee bracelet. The default classic on a certain kind of wrist for three generations.",
+    image: "/watches/rolex-lady-datejust.webp",
   },
   {
     id: "cartier-baignoire",
@@ -813,6 +815,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "women",
     blurb: "An oval turned on its side like a filled bath — named in 1973, and Cartier shape-watchmaking at its most quietly confident.",
+    image: "/watches/cartier-baignoire.webp",
   },
   {
     id: "omega-constellation-manhattan",
@@ -825,6 +828,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "unisex",
     blurb: "Four griffes gripping the crystal and an integrated bracelet — Omega's poised answer to the quartz years, drawn by Carol Didisheim.",
+    image: "/watches/omega-constellation-manhattan.webp",
   },
   {
     id: "cartier-panthere",
@@ -837,6 +841,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "women",
     blurb: "A brick-link bracelet that pours over the wrist like the cat it is named for. Retired in 2004, mourned until its 2017 return.",
+    image: "/watches/cartier-panthere.webp",
   },
   {
     id: "nomos-ludwig",
@@ -849,6 +854,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "unisex",
     blurb: "Bauhaus to the bone — blued hands, a railroad minute track, Glashütte restraint. The 33 mm wears like a whisper.",
+    image: "/watches/nomos-ludwig.webp",
   },
   {
     id: "longines-grande-classique",
@@ -861,6 +867,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "unisex",
     blurb: "Barely four millimetres thick — the ultra-slim disc Longines has quietly made for every elegant wrist since.",
+    image: "/watches/longines-grande-classique.webp",
   },
   {
     id: "seiko-lukia",
@@ -873,6 +880,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "women",
     blurb: "Seiko's watch for the working woman of Ginza — Japanese precision with a quiet glamour, and a cult name at home.",
+    image: "/watches/seiko-lukia.webp",
   },
   {
     id: "cartier-tank-francaise",
@@ -885,6 +893,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "women",
     blurb: "The Tank gone sporty — integrated bracelet, squared case. The one everyone pictures on a wrist in the nineties.",
+    image: "/watches/cartier-tank-francaise.webp",
   },
   {
     id: "jlc-reverso-duetto",
@@ -897,6 +906,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "women",
     blurb: "Flip it: a day face of restraint, a night face of diamonds, both told by one movement. The Reverso's feminine double life.",
+    image: "/watches/jlc-reverso-duetto.webp",
   },
   {
     id: "longines-dolcevita",
@@ -909,6 +919,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "women",
     blurb: "An Art Deco rectangle descended from a 1927 Longines — la dolce vita for the wrist, elegance as an attitude.",
+    image: "/watches/longines-dolcevita.webp",
   },
   {
     id: "patek-twenty4",
@@ -921,6 +932,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "women",
     blurb: "Patek's first watch made only for women — an Art Deco manchette asking who you will be in the next twenty-four hours.",
+    image: "/watches/patek-twenty4.webp",
   },
   {
     id: "frederique-constant-double-heart",
@@ -933,6 +945,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "women",
     blurb: "An aperture shaped like two hearts opening onto the balance — Frederique Constant's gracious path into mechanical watches.",
+    image: "/watches/frederique-constant-double-heart.webp",
   },
   {
     id: "cartier-ballon-bleu",
@@ -945,6 +958,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "unisex",
     blurb: "A sapphire cabochon tucked under a sweeping guard — Cartier's round, modern cushion, beloved most in its smaller sizes.",
+    image: "/watches/cartier-ballon-bleu.webp",
   },
   {
     id: "longines-primaluna",
@@ -957,6 +971,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "women",
     blurb: "Named for the moon and shaped to match — a soft, rounded case that became Longines' feminine signature.",
+    image: "/watches/longines-primaluna.webp",
   },
   {
     id: "tudor-clair-de-rose",
@@ -969,6 +984,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "women",
     blurb: "‘Moonlight’ in French, with a rose where the seconds pivot — the watch that gave Tudor a feminine voice.",
+    image: "/watches/tudor-clair-de-rose.webp",
   },
   {
     id: "grand-seiko-elegance-ladies",
@@ -981,6 +997,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "women",
     blurb: "Zaratsu-polished cases and a dial finished like still water, shrunk to an elegant wrist — Japan's quiet luxury, for her.",
+    image: "/watches/grand-seiko-elegance-ladies.webp",
   },
 
   // ——— Further enthusiast men's (added) ———
@@ -995,6 +1012,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "men",
     blurb: "The first battery-powered watch, in a shield shaped like the future the fifties imagined. Elvis wore one; so did Men in Black.",
+    image: "/watches/hamilton-ventura.webp",
   },
   {
     id: "longines-super-compressor",
@@ -1007,6 +1025,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "men",
     blurb: "Twin crowns and an inner bezel in a case that seals tighter the deeper you go — the ancestor of today's Legend Diver.",
+    image: "/watches/longines-super-compressor.webp",
   },
   {
     id: "breitling-top-time",
@@ -1019,6 +1038,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "men",
     blurb: "Breitling's affordable chronograph for the young and fast — and the one Q handed Bond, Geiger counter included, in Thunderball.",
+    image: "/watches/breitling-top-time.webp",
   },
   {
     id: "cartier-crash",
@@ -1031,6 +1051,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "unisex",
     blurb: "A Tank that seems to have melted — born in Cartier's London workshop in '67, now the most coveted shape in watchmaking.",
+    image: "/watches/cartier-crash.webp",
   },
   {
     id: "zenith-defy-a3642",
@@ -1043,6 +1064,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$",
     audience: "men",
     blurb: "The octagonal 'bank vault' — a faceted, integrated-bracelet sport watch that beat the Royal Oak to the idea by three years.",
+    image: "/watches/zenith-defy-a3642.webp",
   },
   {
     id: "citizen-bullhead",
@@ -1055,6 +1077,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "men",
     blurb: "Pushers up top like horns over an automatic chronograph heart — Japan's racing chrono, back in fashion since Tarantino.",
+    image: "/watches/citizen-bullhead.webp",
   },
   {
     id: "vacheron-222",
@@ -1067,6 +1090,7 @@ export const WATCHES: Watch[] = [
     priceTier: "$$$",
     audience: "men",
     blurb: "The holy trinity's integrated-sport entry, drawn by Jörg Hysek for Vacheron's 222nd year — steel luxury under a fluted bezel.",
+    image: "/watches/vacheron-222.webp",
   },
   {
     id: "tissot-prx",
@@ -1079,5 +1103,6 @@ export const WATCHES: Watch[] = [
     priceTier: "$",
     audience: "men",
     blurb: "Precise, Robust, 10 atmospheres — a slimline integrated-bracelet quartz from the heart of the seventies, reborn to acclaim in 2021.",
+    image: "/watches/tissot-prx.webp",
   },
 ];
